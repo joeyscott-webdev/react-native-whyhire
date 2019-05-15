@@ -1,12 +1,16 @@
 //import lib for component
 import React from 'react';
-import { AppRegistry, Text } from 'react-native';
+import { AppRegistry, View } from 'react-native';
 import Header from './src/components/Header';
+import SkillList from './src/components/SkillList';
 
 //create component
 const App = () => {
   return (
-    <Header headerText={'WhyHIRE'} />
+    <View>
+      <Header headerText={'WhyHIRE'} />
+      <SkillList />
+    </View>
   );
 };
 
